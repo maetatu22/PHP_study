@@ -12,7 +12,7 @@
     echo $colors[0];
     $colors[] = "白";
     echo $colors[3];
-  ?>
+  ?><br>
 
   <?php
     $scores = array(
@@ -22,6 +22,12 @@
               );
     $scores["国語"] += 5;
     echo $scores['国語'];
+  ?><br>
+
+<?php
+    for($i = 51; $i <= 100; $i++){
+      echo $i.'<br>';
+    };
   ?>
 
 </body>
