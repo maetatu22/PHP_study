@@ -6,13 +6,7 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
-  <?php
-    echo 'Hello, world!';
-  ?>
-
-  <?php
-    echo 7*2;
-    echo 8%3;
-    ?>
+  <?php echo 5+7; ?><br/>
+  <?php echo '5+7'; ?>
 </body>
 </html>
