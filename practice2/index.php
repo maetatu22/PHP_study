@@ -41,7 +41,7 @@
   ?>
 
   <?php
-    $num = 222;
+    $nnum = 222;
     $remainder = $num % 3;
     switch($remainder){
       case 0:
