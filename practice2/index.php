@@ -39,5 +39,24 @@
       echo 'xは7の倍数でも3の倍数でもありません。';
     }
   ?>
+
+  <?php
+    $sum = 222;
+    $remainder = $sum % 3;
+    switch($remainder){
+      case 0:
+        echo '大吉です。';
+      break;
+      case 1:
+        echo '中吉です';
+      break;
+      case 2:
+        echo '小吉です';
+      break;
+      default:
+        echo '凶です';
+      break;
+    } 
+  ?>
 </body>
 </html>
