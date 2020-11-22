@@ -41,8 +41,8 @@
   ?>
 
   <?php
-    $sum = 222;
-    $remainder = $sum % 3;
+    $num = 222;
+    $remainder = $num % 3;
     switch($remainder){
       case 0:
         echo '大吉です。';
