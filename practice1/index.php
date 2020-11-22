@@ -7,14 +7,45 @@
 </head>
 <body>
   <?php echo 5+7; ?><br>
+
   <?php echo '5+7'; ?><br>
+
   <?php 
     $fruit = "りんご";
     echo $fruit;
   ?><br>
+
   <?php
     $sum = 8+9;
     echo $sum;
   ?><br>
+
+  <?php
+    $x = 5;
+    $y = 2;
+    $a = 8;
+    $b = 4;
+  ?><br>
+
+  <?php
+    $x += 10;
+    echo $x;
+  ?><br>
+
+  <?php
+    $y *= 5;
+    echo $y;
+  ?><br>
+
+  <?php
+    $a++;
+    echo $a;
+  ?><br>
+
+  <?php
+    $b--;
+    echo $b;
+  ?><br>
+
 </body>
 </html>
