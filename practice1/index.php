@@ -47,5 +47,11 @@
     echo $b;
   ?><br>
 
+  <?php
+    $name = "にんじゃわんこ";
+    $name = "こんにちは！".$name;
+    echo $name;
+  ?><br>
+
 </body>
 </html>
