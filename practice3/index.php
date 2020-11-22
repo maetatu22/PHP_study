@@ -24,9 +24,19 @@
     echo $scores['国語'];
   ?><br>
 
-<?php
-    for($i = 51; $i <= 100; $i++){
-      echo $i.'<br>';
+  <?php
+      for($i = 51; $i <= 100; $i++){
+        echo $i.'<br>';
+      };
+  ?><br>
+
+  <?php
+    $i = 2;
+    while($i <= 100){
+      if($i % 2 == 0){
+        echo $i."<br>";
+      }
+      $i++;
     };
   ?>
 
