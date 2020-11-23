@@ -13,7 +13,8 @@
       echo 'Hello,world!'."<br>";
     }
     hello();
-    
+  ?>
+  <?php
     function printRectangleArea($height, $width){
       echo $height * $width."<br>";
     }
