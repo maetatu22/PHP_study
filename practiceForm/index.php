@@ -20,6 +20,9 @@
   <div class="main">
     <div class="contact-form">
       <div class="form-title">お問い合わせ</div>
+      <form action="sent.php" method="post">
+        
+      </form>
     </div>
   </div>
 
