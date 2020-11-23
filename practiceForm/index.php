@@ -26,6 +26,7 @@
 
         <div class="form-item">内容</div>
         <textarea name="body"></textarea>
+        <input type="submit" value="送信">
       </form>
     </div>
   </div>
