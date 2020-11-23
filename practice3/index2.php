@@ -13,5 +13,15 @@
       echo $key.'は'.$value.'点です。'.'<br>';
     }
   ?>
+
+  <?php
+    $str = 'progate';
+    echo strlen($str)."<br>";
+
+    $array = array('HTML', 'CSS', 'PHP');
+    echo count($array)."<br>";
+
+    echo rand(10,15);
+  ?>
 </body>
 </html>
