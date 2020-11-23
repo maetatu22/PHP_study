@@ -21,7 +21,11 @@
     <div class="contact-form">
       <div class="form-title">お問い合わせ</div>
       <form action="sent.php" method="post">
-        
+        <div class="form-item">名前</div>
+        <input type="text" name="name">
+
+        <div class="form-item">内容</div>
+        <textarea name="body"></textarea>
       </form>
     </div>
   </div>
