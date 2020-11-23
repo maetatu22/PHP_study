@@ -20,14 +20,24 @@
   <div class="main">
     <div class="contact-form">
       <div class="form-title">お問い合わせ</div>
+
       <form action="sent.php" method="post">
+
         <div class="form-item">名前</div>
         <input type="text" name="name">
+
+        <div class="form-item">年齢</div>
+        <select name="age">
+          <option value="未選択">選択してください</option>
+          <option value="20代">20代</option>
+          <option value="30代">30代</option>
+        </select>
 
         <div class="form-item">内容</div>
         <textarea name="body"></textarea>
         <input type="submit" value="送信">
       </form>
+
     </div>
   </div>
 
