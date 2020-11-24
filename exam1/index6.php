@@ -18,6 +18,6 @@
     }
   }
   echo "合計金額は".$totalPrice."円です"."<br>";
-  echo "最高金額は".$maxPrice."円です";
+  echo "最高価格は".$maxPrice."円です";
   
 ?>
