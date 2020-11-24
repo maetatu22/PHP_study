@@ -12,5 +12,5 @@
   foreach ($prices as $price){
     $totalPrice += $price;
   }
-  echo "合計金額は".$totalPrice."です";
+  echo "合計金額は".$totalPrice."円です";
 ?>
