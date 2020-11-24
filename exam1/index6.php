@@ -9,8 +9,15 @@
   echo '<br>';
 
   $totalPrice = 0;
+  $maxPrice = 0;
   foreach ($prices as $price){
     $totalPrice += $price;
+
+    if($maxPrice < $price){
+      $maxPrice = $price;
+    }
   }
-  echo "合計金額は".$totalPrice."円です";
+  echo "合計金額は".$totalPrice."円です"."<br>";
+  echo "最高金額は".$maxPrice."円です";
+  
 ?>
