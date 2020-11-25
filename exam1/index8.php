@@ -5,7 +5,10 @@
     array('name' => 'COFFEE', 'price' => 600)
   );
 
+  $totalPrice = 0;
   foreach ($menus as $menu){
    echo $menu['name']."は".$menu['price']."円です"."<br>";
-  }
+   $totalPrice += $menu['price'];
+  };
+  echo "合計金額は".$totalPrice."円です";
 ?>
