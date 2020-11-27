@@ -1,6 +1,10 @@
 <?php
   class Menu {
 
+    public function hello(){
+      echo "私はMenuクラスのインスタンスです";
+    }
+
   }
 
   $curry = new Menu();
