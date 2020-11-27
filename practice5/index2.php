@@ -12,5 +12,9 @@
   $curry->name = 'CURRY';
   $pasta->name = 'PASTA';
 
+  $curry->hello();
+
   echo '<br>';
+
+  $pasta->hello();
 ?>
