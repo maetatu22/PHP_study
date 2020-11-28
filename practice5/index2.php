@@ -2,7 +2,7 @@
   class Menu {
 
     public function hello(){
-      echo "私はMenuクラスのインスタンスです";
+      echo "私は".$this->name."です";
     }
 
   }
