@@ -16,5 +16,5 @@
 
 ?>
 
-<p><?php $curry->hello() ?></p>
-<p><?php $pasta->hello() ?></p>
+<p><?php echo $curry->name ?></p>
+<p><?php echo $pasta->name ?></p>
