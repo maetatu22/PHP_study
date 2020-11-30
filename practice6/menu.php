@@ -14,7 +14,7 @@
       echo '私は'.$this->name.'です';
     }
 
-    public function getTaxIncludePrice(){
+    public function getTaxIncludedPrice(){
       return floor($this->price * 1.08);
     }
   }
