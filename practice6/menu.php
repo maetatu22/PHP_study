@@ -14,6 +14,14 @@
       echo '私は'.$this->name.'です';
     }
 
+    public function getName(){
+      return $this->name;
+    }
+
+    public function getImage(){
+      return $this->image;
+    }
+
     public function getTaxIncludedPrice(){
       return floor($this->price * 1.08);
     }
