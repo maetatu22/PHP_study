@@ -23,6 +23,14 @@
       return $this->image;
     }
 
+    public function getOrderCount(){
+      return $this->orderCount;
+    }
+
+    public function setOrderCount($orderCount){
+      $this->orderCount = $orderCount;
+    }
+
     public function getTaxIncludedPrice(){
       return floor($this->price * 1.08);
     }
