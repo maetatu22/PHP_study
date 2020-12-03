@@ -14,11 +14,10 @@
     <div class="menu-items">
       <?php foreach ($menus as $menu): ?>
         <div class="menu-item">
-
           <img src="<?php echo $menu->getImage() ?>" class="menu-item-image">
-
           <h3 class="menu-item-name"><?php echo $menu->getName() ?></h3>
           <p class="price">¥<?php echo $menu->getTaxIncludedPrice() ?>（税込）</p>
+          <p>注文数: <?php echo $menu->getOrderCount() ?></p>
         </div>
       <?php endforeach ?>
     </div>
