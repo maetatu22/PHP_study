@@ -42,7 +42,7 @@ class Menu {
     return $this->getTaxIncludedPrice() * $this->orderCount;
   }
 
-  public function getCount(){
+  public static function getCount(){
     return self::$count;
   }
 }
