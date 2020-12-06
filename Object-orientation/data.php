@@ -9,4 +9,8 @@ $pasta = new Food('PASTA', 1200, 'https://s3-ap-northeast-1.amazonaws.com/progat
 
 $menus = array($juice, $coffee, $curry, $pasta);
 
+$juice->setType("アイス");
+
+$coffee->setType("ホット");
+
 ?>
