@@ -21,8 +21,7 @@ require_once('menu.php');
           <div class="menu-item">
             <img src="<?php echo $menu->getImage() ?>" class="menu-item-image">
             <h3 class="menu-item-name">
-              <!-- 以下の1行をaタグで囲んでください -->
-              <?php echo $menu->getName() ?>
+              <a href="show.php"><?php echo $menu->getName() ?></a>
             </h3>
             <?php if ($menu instanceof Drink): ?>
               <p class="menu-item-type"><?php echo $menu->getType() ?></p>
