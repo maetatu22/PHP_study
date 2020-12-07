@@ -1,7 +1,6 @@
-<?php
+<?php 
 require_once('data.php');
 require_once('menu.php');
-
 ?>
 
 <!DOCTYPE html>
@@ -15,14 +14,17 @@ require_once('menu.php');
 <body>
   <div class="menu-wrapper container">
     <h1 class="logo">Café Progate</h1>
-    <h3>メニュー<?php echo Menu::getCount()?>品</h3>
+    <h3>メニュー<?php echo Menu::getCount() ?>品</h3>
     <form method="post" action="confirm.php">
       <div class="menu-items">
         <?php foreach ($menus as $menu): ?>
           <div class="menu-item">
             <img src="<?php echo $menu->getImage() ?>" class="menu-item-image">
             <h3 class="menu-item-name"><?php echo $menu->getName() ?></h3>
-            <p class="menu-item-type"><?php echo $menu->getType()?></p>
+            <!-- if文を用いて、$menuがDrinkクラスのインスタンスである時だけgetTypeメソッドを呼び出すようにしてください -->
+            
+              <p class="menu-item-type"><?php echo $menu->getType() ?></p>
+            
             <p class="price">¥<?php echo $menu->getTaxIncludedPrice() ?>（税込）</p>
             <input type="text" value="0" name="<?php echo $menu->getName() ?>">
             <span>個</span>

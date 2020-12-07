@@ -12,9 +12,9 @@
   <div class="order-wrapper">
     <h2>注文内容確認</h2>
     <?php $totalPayment = 0 ?>
-
+    
     <?php foreach ($menus as $menu): ?>
-      <?php
+      <?php 
         $orderCount = $_POST[$menu->getName()];
         $menu->setOrderCount($orderCount);
         $totalPayment += $menu->getTotalPrice();
