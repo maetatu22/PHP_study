@@ -46,5 +46,12 @@ class Menu {
     return self::$count;
   }
   
+  public static function findByName($menus, $name){
+    foreach($menus as $menu){
+      if($menu->getName()==$name){
+        return $menu;
+      }
+    }
+  }
 }
 ?>
