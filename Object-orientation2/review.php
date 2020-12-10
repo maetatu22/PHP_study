@@ -2,9 +2,11 @@
   class Review{
     private $menuName;
     private $body;
+    private $userName;
 
-    public function __construct($menuName, $body){
+    public function __construct($menuName, $userName, $body){
       $this->menuName = $menuName;
+      $this->userName = $userName;
       $this->body = $body;
     }
 
@@ -14,6 +16,14 @@
 
     public function getBody(){
       return $this->body;
+    }
+
+    public function getUser($users){
+      foreach($users as $user){
+        if($user->getName() == $this->userName){
+          return $user;
+        }
+      }
     }
   }
 ?>
